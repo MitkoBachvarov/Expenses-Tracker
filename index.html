@@ -1,0 +1,29 @@
+<html ng-app="expensesApp">
+  <head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">    
+    <title>Simple Expenses Tracker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="../node_modules/underscore/underscore-min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../node_modules/angular-route/angular-route.min.js"></script>
+
+  </head>
+  <body ng-controller="HomeViewController">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <span class="navbar-brand"><img src="img/logo.png" class="brand" height="20"/> {{appTitle}}</span>
+        </div>
+      </div>
+    </nav>
+    <div class="container" ng-view> <!-- ng-controller="ExpensesViewController"-->
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,9 @@
+[
+    { "id": 1, "description":"football", "amount": 10, "date": "2017-10-02"},
+    { "id": 2, "description":"tickets", "amount": 12, "date": "2017-11-02"},
+    { "id": 3, "description":"food", "amount": 15, "date": "2017-10-12"},
+    { "id": 4, "description":"phone credit", "amount": 19, "date": "2017-11-02"},
+    { "id": 5, "description":"bills", "amount": 10, "date": "2017-11-22"},
+    { "id": 6, "description":"food", "amount": 8, "date": "2017-12-12"},
+    { "id": 7, "description": "drinks", "amount": 12, "date": "2018-11-02"}
+]
